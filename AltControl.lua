@@ -238,17 +238,19 @@ messageDoneFiltering.OnClientEvent:Connect(function(message)
 				game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game.Players[_G.controller].Character:WaitForChild("HumanoidRootPart").CFrame * CFrame.new(24, 0, 1)
 			elseif game.Players.LocalPlayer.Name == alts.alt10 then
 				game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game.Players[_G.controller].Character:WaitForChild("HumanoidRootPart").CFrame * CFrame.new(-24, 0, -1)
-				game:GetService("Players"):Chat("🤓😂")
-				game:GetService("Players"):Chat("/e wave")
-				wait(2)
-				game:GetService("Players"):Chat("L")
-				game:GetService("Players"):Chat("L")
-				game:GetService("Players"):Chat("L")
-				game:GetService("Players"):Chat("/e laugh")
-				wait(2.9)
-				game:GetService("Players"):Chat("/e dance3")
-				game:GetService("Players"):Chat("IMAGINE")
 			end
+		elseif message == ".L" then
+			game:GetService("Players"):Chat("🤓😂")
+			game:GetService("Players"):Chat("/e wave")
+			wait(2)
+			game:GetService("Players"):Chat("L")
+			game:GetService("Players"):Chat("L")
+			game:GetService("Players"):Chat("L")
+			game:GetService("Players"):Chat("/e laugh")
+			wait(2.9)
+			game:GetService("Players"):Chat("/e dance3")
+			game:GetService("Players"):Chat("IMAGINE")
+			end	
 
 			
 
