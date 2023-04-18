@@ -248,7 +248,7 @@ messageDoneFiltering.OnClientEvent:Connect(function(message)
 				game:GetService("Players"):Chat("/e laugh")
 				wait(2.9)
 				game:GetService("Players"):Chat("/e dance3")
-				game:GetService("Players"):Chat("IMAGINE")
+				game:GetService("Players"):Chat("IMAGINEE")
 			end
 
 
