@@ -1,3 +1,4 @@
+print("cars")
 
 game:GetService("RunService"):Set3dRenderingEnabled(false)
 setfpscap(30)
@@ -212,11 +213,11 @@ messageDoneFiltering.OnClientEvent:Connect(function(message)
 			game:GetService("Players"):Chat("/e wave")
 		elseif message == ".laugh" then
 			game:GetService("Players"):Chat("/e laugh")
-			
-			
-			
-			
-			
+
+
+
+
+
 		elseif message == ".L" then
 			if game.Players.LocalPlayer.Name == alts.alt1 then
 				game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game.Players[_G.controller].Character:WaitForChild("HumanoidRootPart").CFrame * CFrame.new(4, 0, 1)
@@ -238,21 +239,17 @@ messageDoneFiltering.OnClientEvent:Connect(function(message)
 				game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game.Players[_G.controller].Character:WaitForChild("HumanoidRootPart").CFrame * CFrame.new(24, 0, 1)
 			elseif game.Players.LocalPlayer.Name == alts.alt10 then
 				game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game.Players[_G.controller].Character:WaitForChild("HumanoidRootPart").CFrame * CFrame.new(-24, 0, -1)
+				game:GetService("Players"):Chat("🤓😂")
+				game:GetService("Players"):Chat("/e wave")
+				wait(2)
+				game:GetService("Players"):Chat("L")
+				game:GetService("Players"):Chat("L")
+				game:GetService("Players"):Chat("L")
+				game:GetService("Players"):Chat("/e laugh")
+				wait(2.9)
+				game:GetService("Players"):Chat("/e dance3")
+				game:GetService("Players"):Chat("IMAGINE")
 			end
-		elseif message == ".L" then
-			game:GetService("Players"):Chat("🤓😂")
-			game:GetService("Players"):Chat("/e wave")
-			wait(2)
-			game:GetService("Players"):Chat("L")
-			game:GetService("Players"):Chat("L")
-			game:GetService("Players"):Chat("L")
-			game:GetService("Players"):Chat("/e laugh")
-			wait(2.9)
-			game:GetService("Players"):Chat("/e dance3")
-			game:GetService("Players"):Chat("IMAGINE")
-			end	
-
-			
 
 
 
@@ -264,8 +261,10 @@ messageDoneFiltering.OnClientEvent:Connect(function(message)
 
 
 
-			
-			
+
+
+
+
 		elseif message == ".spin" then
 			a = Instance.new("BodyAngularVelocity", game.Players.LocalPlayer.Character.HumanoidRootPart); 
 			a.AngularVelocity = Vector3.new(0, 100, 0); 
